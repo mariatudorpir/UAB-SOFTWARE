@@ -45,7 +45,7 @@ for clau, valor in estudiant.items():
 # paraules = ["sol", "lluna", "sol", "estrella", "lluna", "sol"]
 # Crea un diccionari que indiqui quantes vegades apareix cada paraula.
 
-paraules: ["sol", "lluna", "sol", "estrella", "lluna", "sol"]
+paraules = ["sol", "lluna", "sol", "estrella", "lluna", "sol"]
 recompte={} #el diccionari esa buit pperque encara no hem comptat res
 for paraula in paraules: # Exemple: Primera PARAULA de la llista de PARAULES
     if paraula in recompte: # Comprova que la PARAULA estigui en el diccionari RECOMPTE (com que sol no esta, suma 1 per sol, pero quan ho fa per la tercera paraula, veu que ja existeix en el diccionari per tant li suma 1 al valor de la clau corresponent)
