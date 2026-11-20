@@ -40,7 +40,7 @@ print("email" in estudiant)
 for clau, valor in estudiant.items():
     print(f"{clau}: {valor}")
 
-# Exercici 6: Comptar paraules
+# Exercici 6: Comptar paraulesb
 # Donada la llista de paraules:
 # paraules = ["sol", "lluna", "sol", "estrella", "lluna", "sol"]
 # Crea un diccionari que indiqui quantes vegades apareix cada paraula.
